@@ -1,0 +1,38 @@
+Gem cucumber:
+Documentar os cenarios que serão testados
+O Cucumber é uma ferramenta de automação de testes que suporta BDD (Behavior-Driven Development). 
+Ele permite que você escreva testes em uma linguagem natural, conhecida como Gherkin, e então os traduz em código executável. 
+Isso facilita a colaboração entre desenvolvedores, testadores e partes interessadas não técnicas.
+
+
+Selenium:
+    Utilidade: Selenium é uma ferramenta de automação de navegador que permite testar aplicativos web de maneira automatizada. 
+    Ele suporta várias linguagens de programação, como Java, Python, C#, entre outras. 
+    Selenium interage diretamente com o navegador, simulando ações do usuário, como clicar em botões, preencher formulários e navegar pelas páginas.
+
+
+Capybara:
+    Utilidade: Capybara é uma biblioteca de automação de testes para aplicações web, frequentemente usada em conjunto com frameworks de teste como RSpec ou Cucumber. 
+    Capybara fornece uma API fácil de usar para simular interações do usuário com o navegador, permitindo testes de integração mais abrangentes. 
+    Ele suporta diferentes drivers, incluindo Selenium, para testar aplicações em vários navegadores.
+
+
+SitePrism:
+    Utilidade: SitePrism é uma extensão do Capybara que adiciona uma camada de abstração para facilitar a criação e manutenção de testes de interface do usuário. 
+    Ele introduz o conceito de Page Objects, que são classes que representam páginas web e suas interações. 
+    SitePrism ajuda a organizar o código de teste, tornando-o mais legível e fácil de manter. E
+    le é frequentemente usado em conjunto com o Capybara para criar testes de aceitação mais claros e modulares.
+
+
+RSPEC:
+O RSpec é um framework de teste para a linguagem de programação Ruby. 
+Ele é projetado para suportar a prática de TDD (Test-Driven Development) e BDD (Behavior-Driven Development), 
+permitindo que os desenvolvedores escrevam testes para validar o comportamento esperado de suas aplicações.
+(É parecido com o test case manual visto nas aulas passadas)
+
+
+Design Patter:
+Padrão aplicado no projeto, como as pastas que ficarão expostas, as classes, etc. Ajuda na manutenção do codigo, e facilita na criação de novos scripts
+O mais utilizado por QA é o Page Objects (em suma, cada pagina terá sua classe e seu cenario de teste)
+
+
